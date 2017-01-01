@@ -2,8 +2,8 @@ This includes the summary of the data, variables, and data transformations to cr
 
 ###Data Source
 
-	The data used in this project is downloaded from the [Human Activity Recognition Using Smartphone dataset] (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
-It contains the files of activity labels, features, information about the features file, and README. The downloaded data also contains the train and test folders with their respective data sets. Further details about the dataset is located in [[Human Activity Recognition Using Smartphone description] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
+The data used in this project is downloaded from the https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+It contains the files of activity labels, features, information about the features file, and README. The downloaded data also contains the train and test folders with their respective data sets. Further details about the dataset is located in http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
 
 ###Variables
 
