@@ -2,8 +2,8 @@ This includes the summary of the data, variables, and data transformations to cr
 
 ###Data Source
 
-	The data used in this project is downloaded from the https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-It contains the files of activity labels, features, information about the features file, and README. The downloaded data also contains the train and test folders with their respective data sets. Further details about the dataset is located in http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+	The data used in this project is downloaded from the [Human Activity Recognition Using Smartphone dataset] (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+It contains the files of activity labels, features, information about the features file, and README. The downloaded data also contains the train and test folders with their respective data sets. Further details about the dataset is located in [[Human Activity Recognition Using Smartphone description] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
 ###Variables
 
@@ -50,12 +50,12 @@ From the set of variables, only mean and standard deviation were extracted and t
 
 ###Data Transformation Process
 Here are the steps to create the required tidy data:
-1.	Download and unzip the data set in the working directory
-2.	Load the training and test data sets, the variable names from features file and the description of activities from the activity labels file.
-3.	Set the column names of the datasets (measurement, subject, activity) and combine them using cbind function for both training and test sets
-4.	Combine the training and test data sets using cbind
-5.	Select only the column names from the training-test dataset that indicate the subject and activity identifiers and the mean and standard deviation from the list of features.
-6.	Label the activity numbers in the combined training-test dataset using the activity_label file.
-7.	Aggregate the data by subject and activity and compute the mean values of the measurements.
-8.	Create a text file of the tidy data using write.table() function 
+- Download and unzip the data set in the working directory
+- Load the training and test data sets, the variable names from features file and the description of activities from the activity labels file.
+- Set the column names of the datasets (measurement, subject, activity) and combine them using cbind function for both training and test sets
+- Combine the training and test data sets using cbind
+- Select only the column names from the training-test dataset that indicate the subject and activity identifiers and the mean and standard deviation from the list of features.
+- Label the activity numbers in the combined training-test dataset using the activity_label file.
+- Aggregate the data by subject and activity and compute the mean values of the measurements.
+- Create a text file of the tidy data using write.table() function 
 
